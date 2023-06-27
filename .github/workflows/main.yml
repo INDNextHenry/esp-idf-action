@@ -25,7 +25,7 @@ jobs:
         uses: actions/checkout@v2
       
       - name: Install ESP-IDF and Build project
-        uses: INDNextHenry/esp-idf-action@v2
+        uses: INDNextHenry/esp-idf-action@v1
         with: 
             esp_idf_version: v4.4.4
             esp_idf_target: esp32
